@@ -1,5 +1,19 @@
 # Stress Level Detection using IoT amd Machine Learning
 
+According to a cardiac surgeon, it is difficult to predict age from heart rate as it is nonlinear, 
+but we can use a person’s heartbeat to predict whether that person is fit, unfit and overtrained or not, 
+provided we have that person’s age. Based on heartbeat we can predict whether a person is in Stress or not. 
+Stress is one of the main factors that are affecting millions of lives. Thus, it is important to inform the 
+person about his unhealthy lifestyle and even alarm him/her before any acute condition occurs. To detect 
+the stress beforehand we have used heartbeat rate, spO2, body temperature, limb movement and sleeping 
+hours as the parameters. Based on these attribute values we have trained and tested our ML model using 
+various algorithms like Random Forest, Decision Tree, Logistic Regression and Support Vector Machine to 
+get the best accuracy for our dataset. We obtained and created a test dataset from the sensor values and 
+tested our model for real time data. We have used appropriate algorithms to get increased accuracy and 
+predict the stress level. Internet of Things (IoT) along with Machine Learning (ML) is used to alarm the 
+situation when the person is in real risk. ML is used to predict the condition of the patient and IoT is used to 
+communicate the patient about his/her acute stress condition. 
+
 ## Modules of Stress Detector
 1. Data acquistion
 2. Data pre-processing
